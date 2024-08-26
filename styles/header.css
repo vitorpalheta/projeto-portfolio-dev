@@ -2,6 +2,7 @@ header{
   background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -10px;
   height: 750px;  
   text-align: center;
 }
@@ -9,7 +10,7 @@ header{
 
 /* INFO */
 header > section:first-child{
-  padding-block: 80px 0;
+  padding-block: 120px 0;
   max-width: 680px;
   margin: 0 auto 80px;
 
@@ -21,6 +22,7 @@ header > section:first-child{
   }
   
   .avatar img:first-child{
+    margin-top: 8px;
     aspect-ratio: 1/1;
     object-fit: cover;
     width: 112px;
@@ -56,6 +58,15 @@ header > section:first-child{
   .text-sm{
     font: var(--text-sm);
     color: var(--gray-400);
+  }
+}
+
+header > div{
+  padding-block: 94px 57px;
+  
+  img{
+    width: 32px;
+    height: 32px;
   }
 }
 
