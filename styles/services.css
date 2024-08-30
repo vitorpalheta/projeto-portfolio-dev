@@ -1,11 +1,12 @@
-#projects{
+#services{
+  background-color: var(--gray-100);
   text-align: center;
-  display: grid;
   margin-bottom: 144px;
 
   &>h2{
     font: var(--subtitle);
     color: var(--color-red);
+    padding-top: 88px;
     margin-bottom: 8px;
   }
 
@@ -16,35 +17,29 @@
   }
 }
 
-.portfolio{
-  width: 1040px;
+.service{
+  width: 888px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   text-align: start;
-  
-  .card-project{
-    width: 330px;
-    height: 280px;
-    background-color: var(--gray-300);
-    border-radius: 12px;
-    padding: 12px 12px 17px;
-    border: 1.5px solid transparent;
-  }
+  padding-bottom: 120px;
 
-  .card-project:hover{
-    border: 1.5px solid var(--gray-400);
+  .card-service{
+    border: 2px solid var(--gray-200);
+    padding: 20px;
+    border-radius: 12px;
+    
   }
 
   img{
-    width: 306px;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 20px;
-    
   }
+
 
   h2{
     font: var(--title-sm);
