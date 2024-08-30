@@ -1,7 +1,7 @@
 #projects{
   text-align: center;
   display: grid;
-  margin-bottom: 144px;
+  padding: 72px 0 144px;
 }
 
 .portfolio{

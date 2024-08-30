@@ -2,7 +2,6 @@ header{
   background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -10px;
   height: 750px;  
   text-align: center;
 }
@@ -17,7 +16,7 @@ header > section:first-child{
   .avatar{
     position: relative;
     width: 112px;
-    margin: 0 auto  64px;
+    margin: 0 auto 56px;
   
   }
   
@@ -44,6 +43,7 @@ header > section:first-child{
   .subtitle{
     font: var(--subtitle);
     color: var(--gray-500);
+    margin-bottom: 8px;
   }
   
   .subtitle span{
@@ -53,6 +53,7 @@ header > section:first-child{
   h1{
     font: var(--title-lg);
     color: var(--gray-600);
+    margin-bottom: 20px;
   }
   
   .text-sm{

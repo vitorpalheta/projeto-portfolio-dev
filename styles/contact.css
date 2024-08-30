@@ -28,7 +28,7 @@
 
     &>a{
       text-decoration: none;
-      font: var(--text-md);
+      font: 500 var(--text-md);
       color: var(--gray-500);
       display:flex;
       gap: 12px;
