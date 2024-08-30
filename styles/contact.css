@@ -1,0 +1,114 @@
+#contact{
+  padding: 128px 0 200px;
+  text-align: center;
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &>h3{
+    color: var(--color-purple);
+  }
+
+  &>h2{
+    margin-bottom: 8px;
+  }
+
+  &>p{
+    color: var(--gray-500);
+    margin-bottom: 48px;
+  }
+  
+  &>.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &>a{
+      text-decoration: none;
+      font: var(--text-md);
+      color: var(--gray-500);
+      display:flex;
+      gap: 12px;
+      left: auto;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--gray-300);
+      outline: 1.5px solid transparent;
+      width: 400px;
+      border-radius: 8px;
+      padding: 20px;
+
+      div{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        
+      }
+    
+    }
+
+    a:hover{
+      outline: 1.5px solid var(--color-blue);
+
+      .img-linkedin{
+        background-image: url(../assets/icons/LinkedinLogoHover.svg);
+        
+      
+      }
+      .img-instagram{
+        background-image: url(../assets/icons/InstagramLogoHover.svg);
+        
+      
+      }
+      .img-github{
+        background-image: url(../assets/icons/GithubLogoHover.svg);
+        
+      
+      }
+      .img-email{
+        background-image: url(../assets/icons/EnvelopeSimpleHover.svg);
+        
+      
+      }
+    }
+
+
+  }
+
+
+ 
+}
+
+.img-linkedin{
+  background-image: url(../assets/icons/LinkedinLogo.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+}
+.img-instagram{
+  background-image: url(../assets/icons/InstagramLogo.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+}
+.img-github{
+  background-image: url(../assets/icons/GithubLogo.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+}
+.img-email{
+  background-image: url(../assets/icons/EnvelopeSimple.svg);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+}
+
+
+#contact + a{
+  margin-bottom: 16px;
+}
