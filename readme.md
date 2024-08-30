@@ -1,4 +1,4 @@
-#Olá 👋🏽, seja bem vindo ao projeto Portfólio Dev
+# Olá 👋🏽, seja bem vindo ao projeto Portfólio Dev
 
 Esse projeto se baseia em um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
 
@@ -11,6 +11,6 @@ Funções utilizadas nesse projeto:
 - CSS Grid
 - pseudo-class e pseudo-elements
 
-##Portfólio Dev
+## Portfólio Dev
 
 <img src="assets/Capa.jpg" title="Capa do projeto">
