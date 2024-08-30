@@ -1,0 +1,55 @@
+#projects{
+  text-align: center;
+  display: grid;
+  margin-bottom: 144px;
+
+  &>h2{
+    font: var(--subtitle);
+    color: var(--color-red);
+    margin-bottom: 8px;
+  }
+
+  &>h1{
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
+}
+
+.portfolio{
+  width: 1040px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  text-align: start;
+  
+  .card-project{
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    padding: 12px 12px 17px;
+  }
+
+  img{
+    width: 306px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+  }
+
+  h2{
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  p{
+    font: var(--text-sm);
+    color: var(--gray-500);
+    
+  }
+}
