@@ -39,5 +39,17 @@
 
 body{
   background-color: var(--gray-200);
+  font: var(--text-md);
+}
 
+h3{
+  font: var(--subtitle);
+  color: var(--color-red);
+  margin-bottom: 8px;
+}
+
+h2{
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-bottom: 56px;
 }

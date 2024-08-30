@@ -1,20 +1,7 @@
 #services{
   background-color: var(--gray-100);
   text-align: center;
-  margin-bottom: 144px;
-
-  &>h2{
-    font: var(--subtitle);
-    color: var(--color-red);
-    padding-top: 88px;
-    margin-bottom: 8px;
-  }
-
-  &>h1{
-    font: var(--title-md);
-    color: var(--gray-600);
-    margin-bottom: 56px;
-  }
+  padding: 88px 0 120px;
 }
 
 .service{
@@ -24,7 +11,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   text-align: start;
-  padding-bottom: 120px;
 
   .card-service{
     border: 2px solid var(--gray-200);
@@ -41,7 +27,7 @@
   }
 
 
-  h2{
+  h3{
     font: var(--title-sm);
     color: var(--gray-600);
     margin-bottom: 8px;
